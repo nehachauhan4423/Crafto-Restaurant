@@ -1,0 +1,601 @@
+:root {
+  --sansandschi: sans-serif, "Schibsted Grotesk";
+}
+
+.about-header {
+  background-image: url("https://craftohtml.themezaa.com/images/demo-restaurant-about-title-bg.jpg");
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.About-main {
+  padding: 20px 50px;
+}
+
+.about-hedaer-img img {
+  width: 159px;
+}
+
+.about-menu ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.about-menu ul li {
+  padding: 0 12px;
+}
+
+.about-menu ul li a {
+  text-decoration: none;
+  color: #383638;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+}
+
+.about-menu ul li:hover a {
+  color: #888684;
+  transition: 0.9s;
+}
+
+/* about button start  */
+.about-button1 button {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-radius: 8px;
+  letter-spacing: -0.4px;
+}
+
+.about-button1 .default-btn,
+.about-button1 .hover-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  font-size: 17px;
+  padding: 11px 25px 9px;
+  background-color: #383632;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-radius: 50px;
+  letter-spacing: -0.4px;
+}
+
+.about-button1 .hover-btn {
+  position: absolute;
+  inset: 0;
+  transform: translateY(100%);
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-button1 .default-btn span {
+  color: #fff;
+}
+
+.about-button1 button:hover .default-btn {
+  transform: translateY(-100%);
+}
+
+.about-button1 button:hover .hover-btn {
+  transform: translateY(0);
+  background-color: #383632;
+  color: #ffffff;
+  border-radius: 50px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+.about-button1 .hover-btn {
+  padding: 17px 28px 14px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+.about-banner-text {
+  padding: 80px 0;
+}
+
+.about-banner-text h1 {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  color: #383632;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+  margin-bottom: 0;
+}
+
+.about-banner-text h6 {
+  font-size: 15px;
+  font-family: var(--sansandschi);
+  color: #d51f0f;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* about button end  */
+
+/* aboutpage-aimg start  */
+.aboutpage-ai-img-1 img {
+  animation: upDownAnimation 2s ease-in-out infinite;
+}
+
+.aboutpage-ai-img-2 img {
+  width: 885px;
+  height: 650px;
+}
+
+@keyframes upDownAnimation {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* aboutpage-aimg end  */
+
+
+/* aboutpage-aimg-main2 start  */
+.aboutpage-ai-img-1 img {
+  margin: 37px 0;
+}
+
+.aboutpage-aimg-main2 {
+  background-color: #f9f6f3;
+  height: 245px;
+  position: relative;
+}
+
+.aboutpage-aimg-main-img1 img {
+  position: absolute;
+  height: 600px;
+  width: 34%;
+  top: -357px;
+  left: 200px;
+  background-color: #df8328;
+}
+
+.aboutpage-aimg-main-con-main {
+  position: absolute;
+  right: 282px;
+  padding: 77px 0px 50px;
+}
+
+.aboutpage-aimg-main-con-main i {
+  font-size: 80px;
+  line-height: 0px;
+  position: absolute;
+  top: 70px;
+  left: -108px;
+  color: #d39121;
+}
+
+.aboutpage-aimg-main-con-1 h6 {
+  color: #383632;
+  font-size: 22px;
+  margin: 0 0 15px;
+  font-family: var(--sansandschi);
+  letter-spacing: -.5px;
+  font-weight: 500;
+}
+
+.aboutpage-aimg-main-con-1 h6 span {
+  font-weight: 600;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.aboutpage-aimg-main-con-1 h5 {
+  font-family: var(--sansandschi);
+  font-weight: 500;
+  color: #383632;
+  font-size: 18px;
+  margin: 15px 0 0 0;
+}
+
+/* aboutpage-aimg-main2 end  */
+
+/* experience-original start  */
+.experience-original {
+  background-color: #f9f6f3;
+  padding: 100px 0 0px 0;
+}
+
+.experience-original-con {
+  padding: 20px 0 110px 70px;
+}
+
+.experience-original-con h6,
+.restaurant-facilities-main h6,
+.awsome-dining-con h6,.award-and-honours-con h6 {
+  color: #d51f0f;
+  font-size: 15px;
+  font-family: var(--sansandschi);
+  margin: 0 0 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.experience-original-con h2,
+.restaurant-facilities-main h2,
+.awsome-dining-con h2,.award-and-honours-con h2 {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 53px;
+  color: #383632;
+  text-transform: uppercase;
+  letter-spacing: -3.8px;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+
+.experience-original-con p,
+.awsome-dining-con p {
+  color: #8d8987;
+  font-size: 17px;
+  font-family: var(--sansandschi);
+  margin: 0 0 35px;
+  letter-spacing: 0.4px;
+}
+
+.experience-original-con-box {
+  background-color: #fff;
+  width: 300px;
+  height: 110px;
+  padding: 25px;
+  margin: 0 0 25px;
+  box-shadow: rgba(149, 157, 165, 0.129) 0px 8px 24px;
+  border-radius: 8px;
+}
+
+.experience-original-con-box h2 {
+  margin-bottom: 0;
+  padding-right: 20px;
+  border-right: 2px solid #8d98981c;
+}
+
+.experience-original-box-star {
+  padding: 0 0 0 20px;
+}
+
+.experience-original-con-box h2 {
+  font-size: 70px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.experience-original-box-star i {
+  color: #fd961e;
+  font-size: 20px;
+}
+
+.experience-original-box-star h6 {
+  margin: 0;
+  font-family: var(--sansandschi);
+  font-size: 15px;
+  color: #383632;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-top: 3px;
+  letter-spacing: 0.9px;
+}
+
+.experience-original-con h5 i {
+  color: #d51f0f;
+  font-size: 17px;
+}
+
+.experience-original-con h5 {
+  font-size: 17px;
+  font-family: var(--sansandschi);
+  color: #383632;
+  font-weight: 500;
+}
+
+.experience-pos-img-main {
+  position: relative;
+}
+
+.experience-pos-img-1 img {
+  position: absolute;
+  top: -350px;
+  left: -143px;
+  animation: experience 4s ease-in infinite;
+}
+
+@keyframes experience {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.experience-pos-img-2 img {
+  position: absolute;
+  right: -111px;
+  top: -567px;
+  animation: experience 2s ease-in infinite;
+
+}
+
+@keyframes experience {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* experience-original end  */
+
+/* Restaurant facilities start  */
+.restaurant-facilities-main {
+  padding: 130px 0 0px 0;
+}
+
+.restaurant-facilities-main h6 {
+  margin-bottom: 10px;
+}
+
+.restaurant-facilities-main h2 {
+  margin: 0 0 30px;
+}
+
+.restaurant-facilities-img-con {
+  padding: 8% 8% 0% 8%;
+}
+
+.restaurant-facilities-img-con h6 {
+  font-size: 26px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.9px;
+  color: #383632;
+  font-weight: 600;
+}
+
+.restaurant-facilities-img-con p {
+  color: #8d8987;
+  font-size: 17px;
+  font-family: var(--sansandschi);
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.restaurant-facilities-img img {
+  width: 370px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.4s ease-in-out;
+}
+
+.restaurant-facilities-img img:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.5s;
+}
+
+/* Restaurant facilities end  */
+
+
+/* Awesome dining start */
+.awesome-dining {
+  background-color: #f9f6f3;
+  padding: 100px;
+}
+
+/* marquee tag start  */
+.marquee {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  top: 88px;
+}
+
+.marquee h6 {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-no-space 90s linear infinite;
+  top: 100px;
+  font-size: 150px;
+  color: #383632;
+  text-transform: uppercase;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -6px;
+  font-weight: 600;
+}
+
+.marquee h6:first-child {
+  margin-right: -1px;
+}
+
+.marquee h6 {
+  font-size: 150px;
+}
+
+.marquee h6 span {
+  -webkit-text-stroke: 2px #d39121;
+  color: transparent;
+}
+
+@keyframes scroll-no-space {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* marquee tag end  */
+.awsome-dining-main {
+  position: relative;
+}
+
+.awsome-dining-img img {
+  margin-left: 35px;
+  border-radius: 8px;
+  width: 580px;
+}
+
+.awsome-dining-con {
+  padding-left: 80px;
+}
+
+.awsome-dining-con p {
+  line-height: 1.5;
+}
+
+.awsome-dining-button-1 button {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-radius: 8px;
+  letter-spacing: -0.4px;
+}
+
+.awsome-dining-button-1 .default-btn,
+.awsome-dining-button-1 .hover-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  font-size: 17px;
+  padding: 17px 28px 14px;
+  background-color: #383632;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-radius: 8px;
+  letter-spacing: -0.4px;
+}
+
+.awsome-dining-button-1 .hover-btn {
+  position: absolute;
+  inset: 0;
+  transform: translateY(100%);
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.awsome-dining-button-1 .default-btn span {
+  color: #fff;
+}
+
+.awsome-dining-button-1 button:hover .default-btn {
+  transform: translateY(-100%);
+}
+
+.awsome-dining-button-1 button:hover .hover-btn {
+  transform: translateY(0);
+  background-color: #383632;
+  color: #ffffff;
+  border-radius: 8px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+.awsome-dining-button-1 .hover-btn {
+  padding: 17px 28px 14px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+.awsome-dining-button-2 h6 {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #383632;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  margin-top: 13px;
+}
+
+.awsome-dining-button-2 h6 i {
+  color: #d39121;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.awsome-dining-position {
+  background-color: #ffffff;
+  width: 781px;
+  position: absolute;
+  padding: 10px 55px;
+  border-radius: 50px;
+  left: 280px;
+  bottom: -130px;
+}
+
+.awsome-dining-position i {
+  font-size: 16px;
+  color: white;
+  background-color: #fd961e;
+  padding: 2px 15px 7px 15px;
+  border-radius: 50px;
+}
+
+.awsome-dining-position p {
+  margin-top: 13px;
+  font-family: var(--sansandschi);
+  font-size: 18px;
+  color: #383632;
+  font-weight: 500;
+}
+
+.awsome-dining-position p span {
+  border-bottom: 2px solid black;
+  font-weight: 600;
+}
+/* Awesome dining end  */
+
+/* Awards and honours start  */
+.awards-and-honours{
+  padding: 100px 0;
+}
+.award-and-honours-con h2 {
+  margin-bottom: 10px;
+  letter-spacing: -2px;
+}
+.award-and-honours-con h6 {
+  margin-bottom: 4px;
+}
+.award-and-honours-main{
+  margin: 0px 50px;
+}
+.award-and-honours-img img{
+  padding:0px 33px;
+}
+/* Awards and honours end  */

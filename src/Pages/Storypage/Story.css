@@ -1,0 +1,269 @@
+:root {
+  --sansandschi: sans-serif, "Schibsted Grotesk";
+}
+
+/* story header start  */
+.storypage-header {
+  background-image: url("https://craftohtml.themezaa.com/images/demo-restaurant-about-title-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.story-main {
+  padding: 20px 50px;
+}
+
+.story-hedaer-img img {
+  width: 159px;
+}
+
+.story-menu ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.story-menu ul li {
+  padding: 0 12px;
+}
+
+.story-menu ul li a {
+  text-decoration: none;
+  color: #383638;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+}
+
+.story-menu ul li:hover a {
+  color: #888684;
+  transition: 0.5s;
+}
+
+/* menu button start  */
+.story-button1 button {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-radius: 8px;
+  letter-spacing: -0.4px;
+}
+
+.story-button1 .default-btn,
+.story-button1 .hover-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  font-size: 17px;
+  padding: 11px 25px 9px;
+  background-color: #383632;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-radius: 50px;
+  letter-spacing: -0.4px;
+}
+
+.story-button1 .hover-btn {
+  position: absolute;
+  inset: 0;
+  transform: translateY(100%);
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.story-button1 .default-btn span {
+  color: #fff;
+}
+
+.story-button1 button:hover .default-btn {
+  transform: translateY(-100%);
+}
+
+.story-button1 button:hover .hover-btn {
+  transform: translateY(0);
+  background-color: #383632;
+  color: #ffffff;
+  border-radius: 50px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+.story-button1 .hover-btn {
+  padding: 17px 28px 14px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+.story-banner-text {
+  padding: 80px 0;
+}
+
+.story-banner-text h1 {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  color: #383632;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+  /* font-size: 5rem; */
+  margin-bottom: 0;
+}
+
+.story-banner-text h6,
+.our-last-16-years h6 {
+  font-size: 15px;
+  font-family: var(--sansandschi);
+  color: #d51f0f;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* menu header end  */
+
+/* Our story start  */
+.our-img-img-img img {
+  border-radius: 8px;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.our-img-img-con h2 {
+  position: absolute;
+  font-size: 160px;
+  color: #ffffff;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -6.8px;
+  font-weight: 600;
+  top: 588px;
+  left: 410px;
+}
+
+/* Our story end  */
+/* our-last-16-years start  */
+.our-last-16-years {
+  padding: 90px 0 55px 0;
+  background-color: #f9f6f3;
+  position: relative;
+}
+
+.our-last-16-years h6 {
+  margin-bottom: 25px;
+}
+
+.our-last-16-years h2 {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+.our-last-16-years-img img {
+  width: 380px;
+  margin: 0 19px;
+  border-radius: 7px;
+}
+
+/* our-last-16-years end  */
+/* Awards and honours strat */
+.award-and-h {
+  padding: 90px 0 50px 0;
+}
+
+.award-and-h h6 {
+  color: #d02f2f;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-family: var(--sansandschi);
+}
+
+.award-and-h h2 {
+  letter-spacing: -3.2px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  color: #383632;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-bottom: 35px;
+}
+
+.award-and-h-main {
+  border: 1px solid #dee2e6;
+}
+
+.award-and-h-img1,
+.award-and-h-img2,
+.award-and-h-img3,
+.award-and-h-img4 {
+  padding: 13%;
+  border-right: 1px solid #dee2e6;
+}
+
+.award-and-h-img1:hover {
+  box-shadow: 0 0 60px rgba(0, 0, 0, .2);
+  transition: 0.5s;
+}
+
+.award-and-h-img1 p,
+.award-and-h-img2 p,
+.award-and-h-img3 p,
+.award-and-h-img4 p {
+  font-size: 17px;
+  color: #383632;
+  font-family: var(--sansandschi);
+  margin-top: 20px;
+}
+
+.award-and-h-img1 p span,
+.award-and-h-img2 p span,
+.award-and-h-img3 p span,
+.award-and-h-img4 p span {
+  font-weight: 600;
+}
+
+.award-and-h-img2:hover {
+  box-shadow: 0 0 60px rgba(0, 0, 0, .2);
+  transition: 0.5s;
+}
+
+.award-and-h-img3:hover {
+  box-shadow: 0 0 60px rgba(0, 0, 0, .2);
+  transition: 0.5s;
+}
+
+.award-and-h-img4:hover {
+  box-shadow: 0 0 60px rgba(0, 0, 0, .2);
+  transition: 0.5s;
+}
+/* Awards and honours end  */
+/* tripadvisor start */
+.tripadvisor-main{
+  padding-bottom: 70px;
+}
+.tripadvisor-main h6{
+  font-size: 20px;
+  font-family: var(--sansandschi);
+  color: #383632;
+  margin: 0 10px 0 0;
+  font-weight: 500;
+}
+.tripadvisor-main h6 span{
+  border-bottom: 2px solid #383632;
+  font-weight: 600;
+}
+.tripadvisor-main img{
+  width: 192px;
+}

@@ -1,0 +1,284 @@
+:root {
+  --sansandschi: sans-serif, "Schibsted Grotesk";
+}
+
+/* menu header start  */
+.blog-header {
+  background-image: url("https://craftohtml.themezaa.com/images/demo-restaurant-about-title-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.blog-main {
+  padding: 20px 50px;
+}
+
+.blog-hedaer-img img {
+  width: 159px;
+}
+
+.blog-menu ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.blog-menu ul li {
+  padding: 0 12px;
+}
+
+.blog-menu ul li a {
+  text-decoration: none;
+  color: #383638;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+}
+
+.blog-menu ul li:hover a {
+  color: #888684;
+  transition: 0.5s;
+}
+
+/* menu button start  */
+.blog-button1 button {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-radius: 8px;
+  letter-spacing: -0.4px;
+}
+
+.blog-button1 .default-btn,
+.blog-button1 .hover-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  font-size: 17px;
+  padding: 11px 25px 9px;
+  background-color: #383632;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-radius: 50px;
+  letter-spacing: -0.4px;
+}
+
+.blog-button1 .hover-btn {
+  position: absolute;
+  inset: 0;
+  transform: translateY(100%);
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.blog-button1 .default-btn span {
+  color: #fff;
+}
+
+.blog-button1 button:hover .default-btn {
+  transform: translateY(-100%);
+}
+
+.blog-button1 button:hover .hover-btn {
+  transform: translateY(0);
+  background-color: #383632;
+  color: #ffffff;
+  border-radius: 50px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+.blog-button1 .hover-btn {
+  padding: 17px 28px 14px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+.blog-banner-text {
+  padding: 80px 0;
+}
+
+.blog-banner-text h1 {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  color: #383632;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+  /* font-size: 5rem; */
+  margin-bottom: 0;
+}
+
+.blog-banner-text h6 {
+  font-size: 15px;
+  font-family: var(--sansandschi);
+  color: #d51f0f;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* menu header end  */
+
+
+
+
+
+
+
+/* blog our blog  start  */
+.blog-our-blog {
+  padding: 70px 0 100px 0;
+  position: relative;
+}
+
+.blog-our-blog h2 {
+  margin-bottom: 50px;
+}
+
+.blog-our-img1 img,
+.blog-our-img2 img,
+.blog-our-img3 img,
+.blog-our-img4 img,
+.blog-our-img5 img,
+.blog-our-img6 img,
+.blog-our-img7 img,
+.blog-our-img8 img,
+.blog-our-img9 img {
+  width: 375px;
+  border-radius: 7px;
+  filter: brightness(80%);
+}
+
+.blog-our-con1 button,
+.blog-our-con2 button,
+.blog-our-con3 button,
+.blog-our-con4 button,
+.blog-our-con5 button,
+.blog-our-con6 button,
+.blog-our-con7 button,
+.blog-our-con8 button,
+.blog-our-con9 button  {
+  position: absolute;
+  top: 124px;
+  left: 175px;
+  border: 1px solid;
+  color: #383632;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: var(--sansandschi);
+  font-weight: 600;
+  width: 119px;
+  height: 32px;
+  border: 1px solid white;
+}
+
+.blog-our-con2 button,
+.blog-our-con5 button,
+.blog-our-con8 button {
+  left: 615px;
+}
+
+.blog-our-con4 button,
+.blog-our-con5 button,
+.blog-our-con6 button {
+  top: 550px;
+}
+
+.blog-our-con3 button,
+.blog-our-con6 button,
+.blog-our-con9 button {
+  left: 1048px;
+}
+
+.blog-our-con7 button,
+.blog-our-con8 button,
+.blog-our-con9 button {
+  top:978px;
+}
+
+.blog-our-con1 h6,
+.blog-our-con2 h6,
+.blog-our-con3 h6,
+.blog-our-con4 h6,
+.blog-our-con5 h6,
+.blog-our-con6 h6,
+.blog-our-con7 h6,
+.blog-our-con8 h6,
+.blog-our-con9 h6 {
+  font-size: 28px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  position: absolute;
+  top: 335px;
+  left: 184px;
+  letter-spacing: -0.9px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.blog-our-con2 h6,
+.blog-our-con5 h6,
+.blog-our-con8 h6 {
+  left: 615px;
+}
+
+.blog-our-con3 h6,
+.blog-our-con6 h6,
+.blog-our-con9 h6  {
+  left: 1057px;
+}
+
+.blog-our-con4 h6,
+.blog-our-con5 h6,
+.blog-our-con6 h6 {
+  top: 756px;
+  color: #ffffff;
+}
+
+.blog-our-con7 h6,
+.blog-our-con8 h6,
+.blog-our-con9 h6 {
+  top: 1176px;
+  color: #ffffff;
+}
+
+.blog-our-img1 img:hover,
+.blog-our-img2 img:hover,
+.blog-our-img3 img:hover,
+.blog-our-img4 img:hover,
+.blog-our-img5 img:hover,
+.blog-our-img6 img:hover,
+.blog-our-img7 img:hover,
+.blog-our-img8 img:hover,
+.blog-our-img9 img:hover {
+  filter: brightness(90%);
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.blog-our-img1:hover button,
+.blog-our-img2:hover button,
+.blog-our-img3:hover button,
+.blog-our-img4:hover button,
+.blog-our-img5:hover button,
+.blog-our-img6:hover button,
+.blog-our-img7:hover button,
+.blog-our-img8:hover button,
+.blog-our-img9:hover button {
+  background-color: transparent;
+  color: white;
+  transition: 0.5s;
+}
+
+.blog-our-blog-main2 {
+  margin: 50px 0;
+}

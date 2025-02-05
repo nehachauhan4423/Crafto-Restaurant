@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Cursive standard';
+    src: url('../fonts/Cursivestandardbold.woff2') format('woff2'),
+        url('../fonts/Cursivestandardbold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cursive standard';
+    src: url('../fonts/Cursivestandard.woff2') format('woff2'),
+        url('../fonts/Cursivestandard.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Regular.woff2') format('woff2'),
+        url('../fonts/BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-Black.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-Bold.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-BlackItalic.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-BoldItalic.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-ExtraBold.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-Italic.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-Medium.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-SemiBold.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-MediumItalic.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-Regular.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-Italic.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schibsted Grotesk';
+    src: url('../fonts/SchibstedGrotesk-Regular.woff2') format('woff2'),
+        url('../fonts/SchibstedGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

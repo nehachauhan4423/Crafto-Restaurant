@@ -1,0 +1,388 @@
+:root {
+  --sansandschi: sans-serif, "Schibsted Grotesk";
+}
+
+/* menu header start  */
+.menupage-header{
+  background-image: url("https://craftohtml.themezaa.com/images/demo-restaurant-about-title-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu-main {
+  padding: 20px 50px;
+}
+
+.menu-hedaer-img img {
+  width: 159px;
+}
+
+.menu-menu ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.menu-menu ul li {
+  padding: 0 12px;
+}
+
+.menu-menu ul li a {
+  text-decoration: none;
+  color: #383638;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+}
+
+.menu-menu ul li:hover a {
+  color: #888684;
+  transition: 0.5s;
+}
+
+/* menu button start  */
+.menu-button1 button {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-radius: 8px;
+  letter-spacing: -0.4px;
+}
+
+.menu-button1 .default-btn,
+.menu-button1 .hover-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  font-size: 17px;
+  padding: 11px 25px 9px;
+  background-color: #383632;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-radius: 50px;
+  letter-spacing: -0.4px;
+}
+
+.menu-button1 .hover-btn {
+  position: absolute;
+  inset: 0;
+  transform: translateY(100%);
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-button1 .default-btn span {
+  color: #fff;
+}
+
+.menu-button1 button:hover .default-btn {
+  transform: translateY(-100%);
+}
+
+.menu-button1 button:hover .hover-btn {
+  transform: translateY(0);
+  background-color: #383632;
+  color: #ffffff;
+  border-radius: 50px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+.menu-button1 .hover-btn {
+  padding: 17px 28px 14px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+.menu-banner-text {
+  padding: 80px 0;
+}
+
+.menu-banner-text h1 {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  color: #383632;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+  /* font-size: 5rem; */
+  margin-bottom: 0;
+}
+
+.menu-banner-text h6 {
+  font-size: 15px;
+  font-family: var(--sansandschi);
+  color: #d51f0f;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* menu header end  */
+
+/* Best quality food start start  */
+
+.best-quality-food {
+  padding: 0px 0px 60px 0px;
+}
+
+.best-quality-food-img {
+  transform: rotate(13.777deg);
+}
+
+.best-quality-food-img img {
+  animation: rotateLeftRight 12s ease-in-out infinite;
+  /* Adjust duration as needed */
+}
+
+@keyframes rotateLeftRight {
+
+  0%,
+  100% {
+    transform: rotate(-0deg);
+    /* Starting and ending at neutral */
+  }
+
+  25% {
+    transform: rotate(5deg);
+    /* Rotate 10 degrees to the right */
+  }
+
+  75% {
+    transform: rotate(-4deg);
+    /* Rotate 10 degrees to the left */
+  }
+}
+
+.best-quality-food-con {
+  padding: 0 90px;
+}
+
+.best-quality-food-con h6,
+.master-ches-special h6 {
+  font-size: 15px;
+  font-family: var(--sansandschi);
+  color: #d51f0f;
+  margin: 0 0 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.best-quality-food-con h2,
+.master-ches-special h2 {
+  letter-spacing: -4px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 55px;
+  color: #383632;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.best-quality-food-con p {
+  font-size: 19px;
+  font-family: var(--sansandschi);
+  color: #8d8987;
+  margin-bottom: 25px;
+}
+
+.best-quality-food1 button {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-radius: 8px;
+  letter-spacing: -0.4px;
+}
+
+.best-quality-food1 .default-btn,
+.best-quality-food1 .hover-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  font-size: 17px;
+  padding: 17px 28px 14px;
+  background-color: #383632;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  border-radius: 8px;
+  letter-spacing: -0.4px;
+}
+
+.best-quality-food1 .hover-btn {
+  position: absolute;
+  inset: 0;
+  transform: translateY(100%);
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.best-quality-food1 .default-btn span {
+  color: #fff;
+}
+
+.best-quality-food1 button:hover .default-btn {
+  transform: translateY(-100%);
+}
+
+.best-quality-food1 button:hover .hover-btn {
+  transform: translateY(0);
+  background-color: #383632;
+  color: #ffffff;
+  border-radius: 8px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+.best-quality-food1 .hover-btn {
+  padding: 17px 28px 14px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+.best-quality-food2 h6 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #383632;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  margin-top: 5px;
+  letter-spacing: -1px;
+}
+
+.best-quality-food2 h6 i {
+  color: #d39121;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.best-quality-food2 h6:hover {
+  color: #d39121;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/* Best quality food end  */
+/* Master chef's special start  */
+.master-ches-special {
+  background-image: url("https://craftohtml.themezaa.com/images/demo-restaurant-menu-05.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 90px 0;
+}
+
+.master-ches-special h6 {
+  margin-bottom: 10px;
+}
+
+.master-ches-special h2 {
+  font-size: 50px;
+  margin-bottom: 70px;
+}
+
+.master-ches-special-img1,.master-ches-special-img3 {
+  border-right: 2px solid #e9e9e9;
+}
+
+.master-ches-special-img1 img,.master-ches-special-img3 img {
+  width: 350px;
+  transform: rotate(-5.70993deg);
+  margin-left: 35px;
+}
+
+@keyframes rotate {
+  0%,
+  100% {
+    transform: rotate(-0deg);
+  }
+
+  25% {
+    transform: rotate(7deg);
+  }
+
+  75% {
+    transform: rotate(-6deg);
+  }
+}
+
+.master-ches-special-img1,.master-ches-special-img3 {
+  align-items:end;
+  justify-content: center;
+}
+
+.master-ches-special-img1 img,.master-ches-special-img3 img {
+  animation: rotate 5s linear infinite; 
+  transform-origin: center;
+  display: block;
+}
+.master-ches-special-img3 {
+  border-right: 0px;
+}
+
+.master-ches-special-star1{
+  margin:25px 0 20px 0px;
+}
+.master-ches-special-star1 h6 {
+  background-color: #ecba23;
+  width: 115px;
+  height: 38px;
+  padding: 0 15px;
+  padding-top: 7px;
+  border-radius: 5px 0 0 5px;
+  margin-bottom: 0;
+}
+
+.master-ches-special-star1 h6 i {
+  font-size: 17px;
+  color: white;
+  padding-top: 4px;
+}
+
+.master-ches-special-start1-price {
+  background-color: #383632;
+  width: 37px;
+  height: 38px;
+  border-radius: 0px 5px 5px 0px;
+  padding-top: 4px;
+  padding-left: 6px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.master-ches-special-img1-con1 h2{
+  font-size: 20px;
+  letter-spacing: -1px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 7px;
+}
+.master-ches-special-img1-con1 h5{
+  color: #d51f0f;
+  font-size: 26px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 5px;
+  font-weight: 700;
+  letter-spacing: -1.8px;
+}
+.master-ches-special-img1-con1 h5 span{
+  color: #383632;
+  text-decoration: line-through;
+}
+.master-ches-special-img2 {
+  border-right: 2px solid #e9e9e9;
+}
+
+/* Master chef's special end  */

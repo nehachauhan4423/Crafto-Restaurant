@@ -1,0 +1,355 @@
+:root {
+    --sansandschi: sans-serif, "Schibsted Grotesk";
+  }
+  
+  /* menu header start  */
+  .chefs-header-page {
+    background-image: url("https://craftohtml.themezaa.com/images/demo-restaurant-about-title-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .chefs-main {
+    padding: 20px 50px;
+  }
+  
+  .chefs-hedaer-img img {
+    width: 159px;
+  }
+  
+  .chefs-menu ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  .chefs-menu ul li {
+    padding: 0 12px;
+  }
+  
+  .chefs-menu ul li a {
+    text-decoration: none;
+    color: #383638;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -0.3px;
+    font-weight: 600;
+  }
+  
+  .chefs-menu ul li:hover a {
+    color: #888684;
+    transition: 0.5s;
+  }
+  
+  /* menu button start  */
+  .chefs-button1 button {
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8px;
+    letter-spacing: -0.4px;
+  }
+  
+  .chefs-button1 .default-btn,
+  .chefs-button1 .hover-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    font-size: 17px;
+    padding: 11px 25px 9px;
+    background-color: #383632;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50px;
+    letter-spacing: -0.4px;
+  }
+  
+  .chefs-button1 .hover-btn {
+    position: absolute;
+    inset: 0;
+    transform: translateY(100%);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .chefs-button1 .default-btn span {
+    color: #fff;
+  }
+  
+  .chefs-button1 button:hover .default-btn {
+    transform: translateY(-100%);
+  }
+  
+  .chefs-button1 button:hover .hover-btn {
+    transform: translateY(0);
+    background-color: #383632;
+    color: #ffffff;
+    border-radius: 50px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -0.4px;
+  }
+  
+  .chefs-button1 .hover-btn {
+    padding: 17px 28px 14px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -0.4px;
+  }
+  
+  .chefs-banner-text {
+    padding: 80px 0;
+  }
+  
+  .chefs-banner-text h1 {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    color: #383632;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -5px;
+    /* font-size: 5rem; */
+    margin-bottom: 0;
+  }
+  
+  .chefs-banner-text h6 {
+    font-size: 15px;
+    font-family: var(--sansandschi);
+    color: #d51f0f;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  /* chefs header end  */
+
+  /* chefs-img-section start  */
+  .chefs-img-section{
+    padding: 70px 0;
+    position: relative;
+  }
+  .chefs-img-section-main-img img{
+    border-radius: 8px;
+  }
+  .chef-img-section-main-con{
+    background-color: #f9f6f3;
+    padding: 7%;
+    border-radius: 8px;
+    position: absolute;
+    left:780px;
+    top: 200px;
+  }
+  .chef-img-section-main-con h2{
+    color: #d39121; 
+    font-size: 45px;
+    letter-spacing:-3.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin:  0 0 5px;
+  }
+  .chef-img-section-main-con h6{
+    padding: 0 0 30px;
+    border-bottom: 2px solid #d39121;
+    font-size: 15px;
+    font-family: var(--sansandschi);
+    text-transform: uppercase;
+    font-weight: 500;
+
+  }
+  .chef-img-section-main-con p{
+    padding:30px 0 0 0 ;
+    color: #8d8987;
+    margin: 0 0 30px;
+    font-size: 17px;
+    font-family: var(--sansandschi);
+    letter-spacing: 0.7px;
+  }
+  .chef-img-section-main-con {
+    animation: upDown 4s ease-in-out infinite;
+  }
+  
+  @keyframes upDown {
+    0%, 100% {
+      transform: translateY(0); /* Initial position */
+    }
+    50% {
+      transform: translateY(-10px); /* Move up */
+    }
+  }
+  
+  /* chefs-img-section end  */
+
+  /* professional-chefs start  */
+  .profeccional-chefs-img-row-1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .chef-card {
+    position: relative;
+    padding: 0 20px;
+    margin-bottom: 3%;
+    text-align: center;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .image-wrapper img {
+    width: 380px;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    border-bottom: 1px solid #8d898736;
+  }
+  
+  .image-wrapper:hover img {
+    filter: grayscale(100%);
+    transition: 0.5s;
+  }
+  
+  .hover-content {
+    position: absolute;
+    bottom: 0; /* Ensure content is near the bottom */
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    /* background: linear-gradient(to top, #fff 20%, rgba(255, 255, 255, 0) 80%); */
+    background: linear-gradient(to top, #ffffff84 90%, rgba(255, 255, 255, 0) 100%);
+  }
+  
+  .image-wrapper:hover .hover-content {
+    opacity: 1;
+    transition: 0.9s;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons a {
+    color:#383632;
+    font-size: 23px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .social-icons a:hover{
+    transition: 0.2s;
+    color: #d39121;
+    transition: 0.9s;
+  }
+  
+  .professional-chefs h6{
+    color: #d02f2f;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: var(--sansandschi);
+  }
+  .professional-chefs h2{
+    letter-spacing: -3.2px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #383632;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-bottom: 35px;
+  }
+
+  .professional-chefs{
+    padding: 70px 0;
+  }
+  .chef-card h4{
+    font-size: 24px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: #383632;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-top: 20px;
+  }
+  .chef-card h5{
+    font-size: 17px;
+    color: #8d8987;
+    font-family: var(--sansandschi);
+    text-transform:capitalize;
+  }
+  /* professional-chefs end  */
+
+  /* Once you start  */
+  .once-you{
+    padding: 40px 0 ;
+  }
+  .once-you-img1 img{
+    width: 362px;
+  }
+  .once-you-con{
+    background-color: #d39121;
+    border-radius:0px 50px 125px 0px;
+    padding: 10% 6% 10% 3%;
+      width: 701px;
+      height: 346px;
+      padding-top: 0px;
+  }
+  .once-you-con p{
+    font-size: 24px;
+    font-family: var(--sansandschi);
+    color: #ffffff;
+    font-weight: 400;
+    padding: 83px 0 0 30px;
+    line-height:1.2;
+  }
+  .once-you-con p span{
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  .once-you-con h5{
+    font-size: 20px;
+    font-family: var(--sansandschi);
+    color: #fff;
+    padding-left: 29px;
+  }
+  .once-you-con h5 span{
+    opacity: .6;
+    color: #fff;
+    font-size: 16px;
+  }
+  .once-you-img2 img{
+    width: 175px;
+  }
+  .once-you-main {
+    animation: leftRight 4s ease-in-out infinite;
+  }
+  
+  @keyframes leftRight {
+    0%, 100% {
+      transform: translateX(0); /* Initial position */
+    }
+    50% {
+      transform: translateX(8px); /* Move right */
+    }
+  }
+  
+  /* Once you end  */
